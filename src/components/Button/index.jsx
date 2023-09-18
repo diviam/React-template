@@ -3,6 +3,7 @@ import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 
 export default function Button({ btnLink, btnText, variant, icon }) {
+  console.log(variant,"test")
   return (
     <Link
       to={btnLink}
